@@ -1,0 +1,35 @@
+body{
+font-family:sans-serif;
+text-align:center;
+margin:20px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+margin:10px;
+}
+
+.calendar{
+display:grid;
+grid-template-columns:repeat(7,40px);
+gap:6px;
+justify-content:center;
+margin-top:20px;
+}
+
+.day{
+width:40px;
+height:40px;
+border:1px solid #ccc;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:6px;
+}
+
+.done{
+background:#4CAF50;
+color:white;
+font-weight:bold;
+}

@@ -19,6 +19,13 @@
 <div id="streak"></div>
 
 <button id="markBtn">今日成功</button>
+<button id="failBtn">失敗（リセット）</button>
+
+<br><br>
+
+<button id="exportBtn">バックアップ</button>
+<button id="importBtn">復元</button>
+<input type="file" id="fileInput" style="display:none">
 
 <h2 id="monthLabel"></h2>
 
@@ -28,7 +35,7 @@
 
 <script>
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
+navigator.serviceWorker.register("service-worker.js");
 }
 </script>
 

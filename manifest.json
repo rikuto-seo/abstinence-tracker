@@ -1,6 +1,6 @@
 {
-"name": "Abstinence Tracker",
-"short_name": "Tracker",
+"name": "ストイックトラッカー",
+"short_name": "ストイック",
 "start_url": "./index.html",
 "display": "standalone",
 "background_color": "#ffffff",
